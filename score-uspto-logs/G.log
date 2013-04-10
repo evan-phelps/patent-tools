@@ -1,1 +1,93 @@
 Section G -- 66498 records
+processed 1000 (1.5%); block time = 0.41 minutes ... 27 minutes remaining
+processed 2000 (3%); block time = 0.41 minutes ... 26 minutes remaining
+processed 3000 (4.5%); block time = 0.4 minutes ... 26 minutes remaining
+processed 4000 (6%); block time = 0.4 minutes ... 25 minutes remaining
+processed 5000 (7.5%); block time = 0.39 minutes ... 25 minutes remaining
+processed 6000 (9%); block time = 0.39 minutes ... 24 minutes remaining
+processed 7000 (11%); block time = 0.38 minutes ... 24 minutes remaining
+processed 8000 (12%); block time = 0.35 minutes ... 23 minutes remaining
+processed 9000 (14%); block time = 0.35 minutes ... 22 minutes remaining
+processed 10000 (15%); block time = 0.35 minutes ... 22 minutes remaining
+processed 11000 (17%); block time = 0.35 minutes ... 21 minutes remaining
+processed 12000 (18%); block time = 0.33 minutes ... 20 minutes remaining
+processed 13000 (20%); block time = 0.31 minutes ... 20 minutes remaining
+processed 14000 (21%); block time = 0.29 minutes ... 19 minutes remaining
+processed 15000 (23%); block time = 0.32 minutes ... 19 minutes remaining
+processed 16000 (24%); block time = 0.31 minutes ... 18 minutes remaining
+processed 17000 (26%); block time = 0.32 minutes ... 18 minutes remaining
+processed 18000 (27%); block time = 0.37 minutes ... 17 minutes remaining
+processed 19000 (29%); block time = 0.38 minutes ... 17 minutes remaining
+processed 20000 (30%); block time = 0.4 minutes ... 17 minutes remaining
+processed 21000 (32%); block time = 0.37 minutes ... 16 minutes remaining
+processed 22000 (33%); block time = 0.37 minutes ... 16 minutes remaining
+processed 23000 (35%); block time = 0.34 minutes ... 16 minutes remaining
+processed 24000 (36%); block time = 0.34 minutes ... 15 minutes remaining
+processed 25000 (38%); block time = 0.28 minutes ... 15 minutes remaining
+processed 26000 (39%); block time = 0.21 minutes ... 14 minutes remaining
+processed 27000 (41%); block time = 0.2 minutes ... 14 minutes remaining
+processed 28000 (42%); block time = 0.2 minutes ... 13 minutes remaining
+processed 29000 (44%); block time = 0.19 minutes ... 13 minutes remaining
+processed 30000 (45%); block time = 0.19 minutes ... 12 minutes remaining
+processed 31000 (47%); block time = 0.18 minutes ... 12 minutes remaining
+processed 32000 (48%); block time = 0.18 minutes ... 11 minutes remaining
+processed 33000 (50%); block time = 0.17 minutes ... 11 minutes remaining
+processed 34000 (51%); block time = 0.17 minutes ... 10 minutes remaining
+processed 35000 (53%); block time = 0.16 minutes ... 9.7 minutes remaining
+processed 36000 (54%); block time = 0.16 minutes ... 9.2 minutes remaining
+processed 37000 (56%); block time = 0.12 minutes ... 8.8 minutes remaining
+processed 38000 (57%); block time = 0.089 minutes ... 8.3 minutes remaining
+processed 39000 (59%); block time = 0.085 minutes ... 7.9 minutes remaining
+processed 40000 (60%); block time = 0.083 minutes ... 7.5 minutes remaining
+processed 41000 (62%); block time = 0.079 minutes ... 7.1 minutes remaining
+processed 42000 (63%); block time = 0.076 minutes ... 6.7 minutes remaining
+processed 43000 (65%); block time = 0.074 minutes ... 6.3 minutes remaining
+processed 44000 (66%); block time = 0.07 minutes ... 5.9 minutes remaining
+processed 45000 (68%); block time = 0.066 minutes ... 5.6 minutes remaining
+processed 46000 (69%); block time = 0.071 minutes ... 5.2 minutes remaining
+processed 47000 (71%); block time = 0.094 minutes ... 4.9 minutes remaining
+processed 48000 (72%); block time = 0.093 minutes ... 4.6 minutes remaining
+processed 49000 (74%); block time = 0.096 minutes ... 4.3 minutes remaining
+processed 50000 (75%); block time = 0.086 minutes ... 4 minutes remaining
+processed 51000 (77%); block time = 0.075 minutes ... 3.7 minutes remaining
+processed 52000 (78%); block time = 0.065 minutes ... 3.4 minutes remaining
+processed 53000 (80%); block time = 0.054 minutes ... 3.1 minutes remaining
+processed 54000 (81%); block time = 0.042 minutes ... 2.8 minutes remaining
+processed 55000 (83%); block time = 0.035 minutes ... 2.6 minutes remaining
+processed 56000 (84%); block time = 0.032 minutes ... 2.3 minutes remaining
+processed 57000 (86%); block time = 0.029 minutes ... 2.1 minutes remaining
+processed 58000 (87%); block time = 0.024 minutes ... 1.8 minutes remaining
+processed 59000 (89%); block time = 0.021 minutes ... 1.6 minutes remaining
+processed 60000 (90%); block time = 0.017 minutes ... 1.4 minutes remaining
+processed 61000 (92%); block time = 0.012 minutes ... 1.1 minutes remaining
+processed 62000 (93%); block time = 0.0092 minutes ... 0.91 minutes remaining
+processed 63000 (95%); block time = 0.0057 minutes ... 0.69 minutes remaining
+processed 64000 (96%); block time = 0.004 minutes ... 0.49 minutes remaining
+processed 65000 (98%); block time = 0.0025 minutes ... 0.29 minutes remaining
+processed 66000 (99%); block time = 0.0012 minutes ... 0.094 minutes remaining
+finished!
+Total time: 1e+01 minutes.
+score distribution
+0	0
+10	553288378
+20	3000999902
+30	453293528
+40	0
+50	0
+60	138525730
+70	107677080
+80	155178
+90	153048142
+100	14206284
+110	428602
+120	178716
+130	46798
+140	7316
+150	946
+160	1772
+170	296
+180	282
+190	0
+200	125054
+*********************
+counts = 4421984004 : expected = 4421984004

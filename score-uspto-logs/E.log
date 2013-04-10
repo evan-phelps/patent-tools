@@ -1,3 +1,36 @@
 Section E -- 9161 records
-processed 1000 (11%); block time = 0.056 minutes ... 0.45 minutes remaining
+processed 1000 (11%); block time = 0.055 minutes ... 0.45 minutes remaining
 processed 2000 (22%); block time = 0.049 minutes ... 0.37 minutes remaining
+processed 3000 (33%); block time = 0.042 minutes ... 0.3 minutes remaining
+processed 4000 (44%); block time = 0.035 minutes ... 0.23 minutes remaining
+processed 5000 (55%); block time = 0.029 minutes ... 0.17 minutes remaining
+processed 6000 (65%); block time = 0.021 minutes ... 0.12 minutes remaining
+processed 7000 (76%); block time = 0.013 minutes ... 0.075 minutes remaining
+processed 8000 (87%); block time = 0.0042 minutes ... 0.036 minutes remaining
+processed 9000 (98%); block time = 0.0015 minutes ... 0.0045 minutes remaining
+finished!
+Total time: 0.2 minutes.
+score distribution
+0	0
+10	19025196
+20	49505256
+30	11123326
+40	0
+50	0
+60	3652558
+70	404430
+80	11860
+90	135136
+100	40122
+110	13232
+120	2868
+130	694
+140	70
+150	12
+160	0
+170	0
+180	0
+190	0
+200	9161
+*********************
+counts = 83923921 : expected = 83923921

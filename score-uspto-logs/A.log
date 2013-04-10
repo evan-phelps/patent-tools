@@ -1,1 +1,55 @@
 Section A -- 28595 records
+processed 1000 (3.5%); block time = 0.16 minutes ... 4.4 minutes remaining
+processed 2000 (7%); block time = 0.15 minutes ... 4.1 minutes remaining
+processed 3000 (10%); block time = 0.14 minutes ... 3.9 minutes remaining
+processed 4000 (14%); block time = 0.14 minutes ... 3.7 minutes remaining
+processed 5000 (17%); block time = 0.14 minutes ... 3.5 minutes remaining
+processed 6000 (21%); block time = 0.14 minutes ... 3.3 minutes remaining
+processed 7000 (24%); block time = 0.13 minutes ... 3.1 minutes remaining
+processed 8000 (28%); block time = 0.12 minutes ... 2.9 minutes remaining
+processed 9000 (31%); block time = 0.12 minutes ... 2.7 minutes remaining
+processed 10000 (35%); block time = 0.11 minutes ... 2.5 minutes remaining
+processed 11000 (38%); block time = 0.1 minutes ... 2.3 minutes remaining
+processed 12000 (42%); block time = 0.1 minutes ... 2.1 minutes remaining
+processed 13000 (45%); block time = 0.1 minutes ... 2 minutes remaining
+processed 14000 (49%); block time = 0.095 minutes ... 1.8 minutes remaining
+processed 15000 (52%); block time = 0.088 minutes ... 1.7 minutes remaining
+processed 16000 (56%); block time = 0.086 minutes ... 1.5 minutes remaining
+processed 17000 (59%); block time = 0.076 minutes ... 1.4 minutes remaining
+processed 18000 (63%); block time = 0.071 minutes ... 1.2 minutes remaining
+processed 19000 (66%); block time = 0.063 minutes ... 1.1 minutes remaining
+processed 20000 (70%); block time = 0.057 minutes ... 0.94 minutes remaining
+processed 21000 (73%); block time = 0.051 minutes ... 0.81 minutes remaining
+processed 22000 (77%); block time = 0.045 minutes ... 0.68 minutes remaining
+processed 23000 (80%); block time = 0.039 minutes ... 0.56 minutes remaining
+processed 24000 (84%); block time = 0.033 minutes ... 0.45 minutes remaining
+processed 25000 (87%); block time = 0.026 minutes ... 0.34 minutes remaining
+processed 26000 (91%); block time = 0.018 minutes ... 0.24 minutes remaining
+processed 27000 (94%); block time = 0.009 minutes ... 0.14 minutes remaining
+processed 28000 (98%); block time = 0.0027 minutes ... 0.051 minutes remaining
+finished!
+Total time: 2 minutes.
+score distribution
+0	0
+10	487413888
+20	128764400
+30	165058272
+40	0
+50	0
+60	31307064
+70	3193778
+80	33278
+90	828768
+100	732616
+110	220808
+120	55720
+130	31692
+140	4484
+150	578
+160	80
+170	4
+180	0
+190	0
+200	28595
+*********************
+counts = 817674025 : expected = 817674025

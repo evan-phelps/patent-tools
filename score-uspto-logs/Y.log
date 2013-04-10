@@ -1,4 +1,34 @@
 Section Y -- 7330 records
 processed 1000 (14%); block time = 0.04 minutes ... 0.25 minutes remaining
-processed 2000 (27%); block time = 0.037 minutes ... 0.2 minutes remaining
-processed 3000 (41%); block time = 0.032 minutes ... 0.16 minutes remaining
+processed 2000 (27%); block time = 0.037 minutes ... 0.21 minutes remaining
+processed 3000 (41%); block time = 0.033 minutes ... 0.16 minutes remaining
+processed 4000 (55%); block time = 0.025 minutes ... 0.11 minutes remaining
+processed 5000 (68%); block time = 0.017 minutes ... 0.071 minutes remaining
+processed 6000 (82%); block time = 0.0072 minutes ... 0.035 minutes remaining
+processed 7000 (95%); block time = 0.002 minutes ... 0.0076 minutes remaining
+finished!
+Total time: 0.2 minutes.
+score distribution
+0	0
+10	11240400
+20	140400
+30	408736
+40	0
+50	0
+60	41240560
+70	579982
+80	6056
+90	79678
+100	21750
+110	3574
+120	410
+130	24
+140	0
+150	0
+160	0
+170	0
+180	0
+190	0
+200	7330
+*********************
+counts = 53728900 : expected = 53728900
