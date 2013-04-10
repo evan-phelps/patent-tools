@@ -1,1 +1,15 @@
-patent-tools!
+patent-tools
+============
+
+scrape-uspto
+++++++++++++
+
+* scrape-uspto-requirements.txt -- job description per oDesk posting.
+* scrape-uspto-requirements-att.xls -- attachment to job description.
+* scrape-uspto.py -- one-shot utility to scrape uspto web site for patent data according to scrape-uspto-requirements.txt.
+  * requires module BeautifulSoup to be installed (e.g., sudo pip install BeautifulSoup).
+  * no error checking; dead links throw error without continuing to next link.
+* scrape-uspto.input -- required plain-text input file for scrape-uspto.py; one number per line.
+* uspto.out -- output file of scrape-uspto.py.
+* execute: python scrape-uspto.py (Python3 was used)
+

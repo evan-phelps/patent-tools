@@ -1,0 +1,55 @@
+From oDesk job posting: https://www.odesk.com/jobs/~01ee2aac33b7c1ef3c
+local attachment: scrape-uspto-requirements-att.xls
+
+------------------
+
+I would like a csv file.  Here is how to make the file for me. 
+
+
+Source url of the data:  
+http://www.uspto.gov/web/patents/classification/cpc/html/usXXXtocpc.html
+
+Where XXX = numbers in the attached file excel file, sheet "XXX values".  There are 438 numbers and webpages, the numbers range from 002 - 987.  
+
+
+Location of the data on each page:  
+I need all of the data in the large table on each page.  There are four main columns. 
+
+USPC Subclass |   1st | 2nd |    3rd - 5th
+
+Column one through three include one piece of data, however, column four includes up to three pieces of data.  (On the webpage, click on "more" to view it).  
+
+I do not need the data in the table labelled:  "Most statistically relevant CPC Subclasses"
+
+
+Format for the output file: 
+The CSV file should be six columns:
+USPC  | 1st | 2nd | 3rd | 4th | 5th
+
+A sample of the output is in the attached file excel file, "USPtoCPC".
+
+
+Size.
+There should be around 200,000 rows by 6 columns in the final CSV file.
+
+
+Caution!
+The data should not be altered.  For example, Excel sometimes converts 2/1 into Feb. 1, 2013.  That is wrong.  
+
+
+Legal stuff:
+Don't break the law to complete this project. 
+You assign all IP rights in this project to me. 
+
+
+Important.
+Read the readme sheet in the attached file.  
+
+
+Possible solutions: 
+http://www.andrewsturges.com/2011/09/how-to-harvest-web-data-using-ruby-and.html
+
+mozenda
+
+
+Please let me know if you have any questions. 
