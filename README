@@ -1,8 +1,12 @@
 patent-tools
 ============
 
+These tools are not general purpose.  The tools extract cooperative patent classification codes, section/scheme/class/group, and use the encoded information to build relationship weights between different classifications.  Ultimately, the information and scoring will feed into a larget system of practical tools that allow for easier identification of expert witnesses and other resources useful for patent litigation.
+
 scrape-uspto
 ++++++++++++
+
+Extracts USPTO website data.
 
 * scrape-uspto-requirements.txt -- job description per oDesk posting.
 * scrape-uspto-requirements-att.xls -- attachment to job description.
@@ -13,3 +17,23 @@ scrape-uspto
 * uspto.out -- output file of scrape-uspto.py.
 * execute: python scrape-uspto.py (Python3 was used)
 
+score-uspto
++++++++++++
+
+Scores each group within a single section according to its subject relevance to each other group.
+
+* score-uspto.cpp -- scoring algorithm.  requires C++11 due to use of unsorted_map. if C++11 is not supported, the unsorted_map could be converted to a traditional map or the external library TR1 could be used.
+  * compile:
+    > g++ -std=c++11 score-uspto.cpp -o score
+* score-uspto-requirements.txt -- job description per oDesk posting.
+* score-uspto-requirements.pdf -- attachment to job description. originally called "Workflow."
+* score-uspto-tests -- directory contains test cases in the form of test.input and test.expected. test.results are the last results.
+  * execute and make sure there are no differences
+    > score test.input test.results > test.log
+    > diff test.results test.expected
+* score-uspto-input -- scraped data already divided into sections.
+  * format: id,cpc,level. no header row.
+  * cpc: Xsssc[*]/gg[*], where X = section, sss = scheme, c[*] = class, gg[*] = group
+  * execute and monitor example:
+    > score score-uspto-input/A.input A.csv > A.log &
+    > tail -f A.log
