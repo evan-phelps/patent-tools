@@ -10,12 +10,12 @@ Extracts USPTO website data.
 
 * scrape-uspto-requirements.txt -- job description per oDesk posting.
 * scrape-uspto-requirements-att.xls -- attachment to job description.
-* scrape-uspto.py -- one-shot utility to scrape uspto web site for patent data according to scrape-uspto-requirements.txt.
+* scrape-uspto.py -- one-shot utility to scrape uspto web site for patent data according to scrape-uspto-requirements.txt.  outfile = uspto.out.
   * requires module BeautifulSoup to be installed (e.g., sudo pip install BeautifulSoup).
   * no error checking; dead links throw error without continuing to next link.
 * scrape-uspto.input -- required plain-text input file for scrape-uspto.py; one number per line.
-* uspto.out -- output file of scrape-uspto.py.
 * execute: python scrape-uspto.py (Python3 was used)
+* scrape-uspto-ouput.zip -- scraped data (as of 2013/03/31).
 
 score-uspto
 +++++++++++
@@ -37,3 +37,5 @@ Scores each group within a single section according to its subject relevance to 
   * execute and monitor example:
     > score score-uspto-input/A.input A.csv > A.log &
     > tail -f A.log
+* input, results, and logs (as of 2013/04/07) at https://dl.dropbox.com/u/10329615/uspto-scores.zip
+* score-uspto-logs -- all logs from 2013/04/07 run
