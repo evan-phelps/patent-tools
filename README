@@ -64,3 +64,4 @@ search-engine
 * rfp-response.(pdf/odt) -- snapshot of response to RFP in LibreOffice and PDF formats; proposed content is always superseded by more recent design documents and implementation comments
 * erd.(dia/png), sequence.(dia/png) -- editable dia files; png files used by rfp-response.
 * t.*.py -- python scripts for transforming data into format importable into application's data model
+* t.cpc.cpp -- C++11 program for transforming cpc flat-file data into application's data model; adapted from score-uspto.cpp, since it already calculated a node path for each CPC; node path offers alternative to storing all scores (i.e., recalculate score from relative node positions)
