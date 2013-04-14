@@ -1,12 +1,20 @@
 patent-tools
 ============
 
-These tools are not general purpose.  The tools extract Cooperative Patent
-Classification codes, section/scheme/class/group, and use the encoded
-information to build relationship weights between different groups.  Ultimately,
-the information and scoring will feed into a larger system of practical tools
-that allow for easier identification of expert witnesses and other resources
+Scrape, score, and expose patent-witness data. These tools (1) extract
+Cooperative Patent Classification codes, section/scheme/class/group,
+(2) use the encoded information to build relationship weights between
+different groups, (3) provide patent-to-CPC and witness-to-CPC
+information, and (4) expose the information via a database-driven
+search engine that finds the best expert witness for a particular
+patent number.  Ultimately, these tools will feed into a larger system
+of practical tools that allow easier access to various resources
 useful for patent litigation.
+
+I. scrape-uspto
+II. score-uspto
+III. search-engine
+IV. data transformation notes
 
 scrape-uspto
 ++++++++++++
