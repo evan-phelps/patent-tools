@@ -54,3 +54,13 @@ each other group.
 * input, results, and logs (as of 2013/04/07) at
   https://dl.dropbox.com/u/10329615/uspto-scores.zip
 * score-uspto-logs -- all logs from 2013/04/07 run
+
+search-engine
++++++++++++++
+
+(in-progress) Patent-witness matching database and web application. Project includes data transformation and migration information along with a deployable web2py application.
+
+* rfp folder -- documents provided in RFP, including requirements document, sample data, file layout descriptions
+* rfp-response.(pdf/odt) -- snapshot of response to RFP in LibreOffice and PDF formats; proposed content is always superseded by more recent design documents and implementation comments
+* erd.(dia/png), sequence.(dia/png) -- editable dia files; png files used by rfp-response.
+* t.*.py -- python scripts for transforming data into format importable into application's data model
