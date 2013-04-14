@@ -65,3 +65,24 @@ search-engine
 * erd.(dia/png), sequence.(dia/png) -- editable dia files; png files used by rfp-response.
 * t.*.py -- python scripts for transforming data into format importable into application's data model
 * t.cpc.cpp -- C++11 program for transforming cpc flat-file data into application's data model; adapted from score-uspto.cpp, since it already calculated a node path for each CPC; node path offers alternative to storing all scores (i.e., recalculate score from relative node positions)
+
+DATA TRANSFORMATION NOTES (2013/04/14)
+======================================
+$ := bash prompt
+>>> := python prompt
+
+concatenate records into one file:
+$ cat rfp/record\ \(*\).csv > rfp/records.csv
+
+load python transformation functions in pyton 2.7:
+$ python2 -i t.data.py
+
+invoke corresponding functions:
+>>> t_pat2cpc('rfp/pat2cpc-sample-result.csv',open('t.pat.csv','w'))
+>>> t_records('rfp/records.csv',open('t.record.csv','w'),open('t.pat_case.csv','w'))
+
+compile t.cpc.cpp with C++11 compiler:
+$ g++ --std=c++11 -o t.cpc t.cpc.cpp
+
+invoke t.cpc with input and output files:
+$ t.cpc rfp/cpc\ table\ -\ sample\ -\ \(group\ D\).csv t.cpc.D.csv

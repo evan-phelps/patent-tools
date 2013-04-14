@@ -9,6 +9,7 @@ import csv
 #             open('t.pat2cpc.csv','w'))
 #Similarly for each "t_" function.
 def t_pat2cpc(infile='pat2cpc-sample.csv',outfile=sys.stdout):
+    oldout = sys.stdout
     sys.stdout = outfile
     def filterseq(l):
         a = 5
@@ -20,7 +21,7 @@ def t_pat2cpc(infile='pat2cpc-sample.csv',outfile=sys.stdout):
             i += 1
 
     data = csv.reader(open(infile))
-    fields = data.next() #header
+    #fields = data.next() #header
 
     for row in data:
         imax = len(row) - 5 - 2
@@ -30,6 +31,9 @@ def t_pat2cpc(infile='pat2cpc-sample.csv',outfile=sys.stdout):
             trow += val
             if (i+1)%4 == 0: trow += '|'
         print(trow.strip(',').replace(' ','').strip('|'))
+
+    sys.stdout = oldout
+    print('FINISHED!')
 
 def t_records(infile='records.csv',outrec=sys.stdout,outcase=sys.stdout):
     def printrec(r):
