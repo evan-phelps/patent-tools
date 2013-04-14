@@ -1,0 +1,33 @@
+record.no,1,
+name.first,Allen,
+name.last,Doe,
+case.no,11-cv-357,
+,court,TXED
+,plaintiff,Am. Tech
+,defendant,Degher
+,patent,6587453
+,cpc,H04L 12/6418
+,cpc,H04L 2012/6421
+,cpc,H04L 2012/6454
+,cpc,H04L 2012/6459
+,cpc,H04L 2012/6462
+,cpc,H04L 2012/6467
+,cpc,H04W 74/02
+case.no,12-cv-461,
+,court,NYSD
+,plaintiff,Power Co.
+,defendant,Dow Corp.
+,patent,6083746
+,cpc,C07K 14/4703
+,cpc,C12N 9/90
+,cpc,C12N 15/1034
+,cpc,C12N 15/113
+,cpc,C12N 15/1137
+,cpc,C12N 15/1138
+,cpc,C12N 15/67
+,cpc,C12Y 599/01003
+,cpc,G01N 33/574
+,cpc,A61K 38/00
+,cpc,C12N 2310/18
+,cpc,C12N 2310/321
+,cpc,G01N 2800/44

@@ -1,0 +1,188 @@
+record.no,10,
+name.first,Julie,
+name.last,Stamer,
+case.no,11-cv-6875,
+,court,TXED
+,plaintiff,Leorir
+,defendant,Meoris
+,patent,"8,350,060"
+,cpc,C07C 229/50
+,cpc,C07D 307/88
+,patent,"5,750,566"
+,cpc,A61K 31/00
+,cpc,A61K 31/198
+,cpc,A61K 31/215
+,cpc,C07C 62/38
+,cpc,C07C 229/50
+,cpc,C07D 235/02
+,cpc,C07C 2102/18
+record.no,1,
+name.first,Allen,
+name.last,Doe,
+case.no,11-cv-357,
+,court,TXED
+,plaintiff,Am. Tech
+,defendant,Degher
+,patent,6587453
+,cpc,H04L 12/6418
+,cpc,H04L 2012/6421
+,cpc,H04L 2012/6454
+,cpc,H04L 2012/6459
+,cpc,H04L 2012/6462
+,cpc,H04L 2012/6467
+,cpc,H04W 74/02
+case.no,12-cv-461,
+,court,NYSD
+,plaintiff,Power Co.
+,defendant,Dow Corp.
+,patent,6083746
+,cpc,C07K 14/4703
+,cpc,C12N 9/90
+,cpc,C12N 15/1034
+,cpc,C12N 15/113
+,cpc,C12N 15/1137
+,cpc,C12N 15/1138
+,cpc,C12N 15/67
+,cpc,C12Y 599/01003
+,cpc,G01N 33/574
+,cpc,A61K 38/00
+,cpc,C12N 2310/18
+,cpc,C12N 2310/321
+,cpc,G01N 2800/44
+record.no,2,
+name.first,Brittany,
+name.last,Thompson,
+case.no,13-cv-6784,
+,court,CAND
+,plaintiff,plaintiff
+,defendant,defendant
+,patent,"6,548,923"
+,cpc,H02K 37/18
+,patent,"6,057,613"
+,cpc,H02K 37/18
+record.no,3,
+name.first,Carl,
+name.last,Frehin,
+case.no,8-cv-789,
+,court,PAWD
+,plaintiff,Tyco
+,defendant,Amstead
+,patent,"6,616,660"
+,cpc,A61B 18/042
+case.no,6-cv-3241,
+,court,TXED
+,plaintiff,Tyco
+,defendant,Akeu
+,patent,"5,800,500"
+,cpc,A61N 1/0541
+,cpc,A61B 2018/00107
+case.no,06-cv-657,
+,court,TXED
+,plaintiff,Tyco
+,defendant,Owneex
+,patent,"5,515,848"
+,cpc,A61F 11/04
+,cpc,A61N 1/0551
+,cpc,H01R 13/50
+,cpc,H01R 43/24
+,cpc,A61B 2018/00107
+record.no,4,
+name.first,Dev,
+name.last,Pakeio,
+case.no,05-cv-6785,
+,court,DED
+,plaintiff,Aleii
+,defendant,Gmieo
+,patent,"7,605,650"
+,cpc,H03F 1/38
+,cpc,H03F 3/005
+,cpc,H03F 3/45183
+,cpc,H03F 3/45475
+,cpc,H03F 2203/45514
+record.no,5,
+name.first,Elkips,
+name.last,Van Hourty,
+case.no,9-cv-675,
+,court,WAWD
+,plaintiff,Medicoe
+,defendant,Maliop
+,patent,"7,388,079"
+,cpc,A61K 47/48561
+,cpc,C07K 16/2869
+,cpc,A61K 2039/505
+,cpc,C07K 2317/24
+record.no,6,
+name.first,Fritz,
+name.last,Clauger,
+case.no,11-cv-675,
+,court,TXED
+,plaintiff,Loeniew
+,defendant,Meodpew
+,patent,7388078
+,cpc,C07K 14/31
+,patent,7153655
+,cpc,C12Q 1/68
+,cpc,C12P 19/34
+,patent,"6,483,011"
+,cpc,C12Q 1/48
+,patent,"5,939,250"
+,cpc,C12N 9/00
+,cpc,C12N 9/16
+,cpc,C12N 9/24
+,cpc,C12N 15/102
+,cpc,C12N 15/1034
+,cpc,C12Q 1/6811
+,cpc,C12Y 302/01021
+record.no,7,
+name.first,Gunter,
+name.last,Ali-pow,
+case.no,10-cv-6578,
+,court,TXND
+,plaintiff,"Po, Systems LLC"
+,defendant,"Tuner, Co."
+,patent,"6,932,250"
+,cpc,B22D 41/50
+,patent,"6,425,505"
+,cpc,B22D 41/50
+,patent,"5,902,511"
+,cpc,B22D 41/54
+record.no,8,
+name.first,Henri,
+name.last,Soki,
+case.no,9-cv-375,
+,court,CASD
+,plaintiff,"Wave Rider, LLC"
+,defendant,"Sling It, Corp."
+,patent,"6,413,674"
+,cpc,D21F 11/14
+,cpc,D21H 27/08
+,cpc,H01M 2/1626
+,cpc,Y02E 60/12
+,patent,"6,074,523"
+,cpc,D21F 11/14
+,cpc,D21H 27/08
+,cpc,H01M 2/1626
+,cpc,Y02E 60/12
+,patent,"5,366,832"
+,cpc,H01M 2/1633
+,cpc,H01M 2300/0014
+,cpc,Y02E 60/12
+record.no,9,
+name.first,Ivan,
+name.last,Cortiane,
+case.no,10-cv-9756,
+,court,FLSD
+,plaintiff,"Pluto Time, Co."
+,defendant,Aliew
+,patent,"7,457,667"
+,cpc,A61N 1/303
+,patent,"6,788,978"
+,cpc,A61N 1/10
+,cpc,A61N 1/20
+,cpc,A61N 1/205
+,cpc,D04B 1/14
+,cpc,D04B 1/26
+,patent,"5,038,796"
+,cpc,A61N 1/0452
+,cpc,A61N 1/0456
+,cpc,A61N 1/0492
