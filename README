@@ -14,7 +14,7 @@ useful for patent litigation.
 I. scrape-uspto
 II. score-uspto
 III. search-engine
-IV. data transformation notes
+IV. data transformation/migration notes
 
 scrape-uspto
 ++++++++++++
@@ -74,23 +74,35 @@ search-engine
 * t.*.py -- python scripts for transforming data into format importable into application's data model
 * t.cpc.cpp -- C++11 program for transforming cpc flat-file data into application's data model; adapted from score-uspto.cpp, since it already calculated a node path for each CPC; node path offers alternative to storing all scores (i.e., recalculate score from relative node positions)
 
-DATA TRANSFORMATION NOTES (2013/04/14)
-======================================
+DATA TRANSFORMATION/MIGRATION NOTES (2013/04/14)
+================================================
 $ := bash prompt
 >>> := python prompt
 
-concatenate records into one file:
+1. concatenate records into one file:
 $ cat rfp/record\ \(*\).csv > rfp/records.csv
 
-load python transformation functions in pyton 2.7:
+2. load python transformation functions in pyton 2.7:
 $ python2 -i t.data.py
 
-invoke corresponding functions:
+3. invoke corresponding functions:
 >>> t_pat2cpc('rfp/pat2cpc-sample-result.csv',open('t.pat.csv','w'))
 >>> t_records('rfp/records.csv',open('t.record.csv','w'),open('t.pat_case.csv','w'))
 
-compile t.cpc.cpp with C++11 compiler:
+4. compile t.cpc.cpp with C++11 compiler:
 $ g++ --std=c++11 -o t.cpc t.cpc.cpp
 
-invoke t.cpc with input and output files:
+5. invoke t.cpc with input and output files:
 $ t.cpc rfp/cpc\ table\ -\ sample\ -\ \(group\ D\).csv t.cpc.D.csv
+
+6. upload files to server
+7. import into MySQL
+
+mysql> LOAD DATA LOCAL INFILE 't.record.csv' INTO TABLE record COLUMNS TERMINATED BY ',' LINES TERMINATED BY '\n';
+
+mysql> LOAD DATA LOCAL INFILE 't.pat_case.csv' INTO TABLE pat_case COLUMNS TERMINATED BY ',' LINES TERMINATED BY '\n' (case_num,rec_num,court,plaintiff,defendent,cpcs,pats);
+
+mysql> LOAD DATA LOCAL INFILE 't.cpc.D.csv' INTO TABLE cpc COLUMNS TERMINATED BY ',' LINES TERMINA TED BY '\n' (id,cpc,sect,schem,clas,grp,lvl,n0,n1,n2,n3,n4,n5,n6,n7,n8,n9,n10,n11,n12);
+
+mysql> LOAD DATA LOCAL INFILE 't.pat.csv' INTO TABLE pat COLUMNS TERMINATED BY ',' LINES TERMINATED BY '\n' (pat_num,cpcs);
+
