@@ -98,11 +98,13 @@ $ t.cpc rfp/cpc\ table\ -\ sample\ -\ \(group\ D\).csv t.cpc.D.csv
 6. upload files to server
 7. import into MySQL
 
+$ mysql -uevanphelps -hmysql.server -p
+
 mysql> LOAD DATA LOCAL INFILE 't.record.csv' INTO TABLE record COLUMNS TERMINATED BY ',' LINES TERMINATED BY '\n';
 
-mysql> LOAD DATA LOCAL INFILE 't.pat_case.csv' INTO TABLE pat_case COLUMNS TERMINATED BY ',' LINES TERMINATED BY '\n' (case_num,rec_num,court,plaintiff,defendent,cpcs,pats);
+mysql> LOAD DATA LOCAL INFILE 't.pat_case.csv' INTO TABLE pat_case COLUMNS TERMiNATED BY ',' LINES TERMINATED BY '\n' (case_num,rec_num,court,plaintiff,defendent,cpcs,pats);
 
-mysql> LOAD DATA LOCAL INFILE 't.cpc.D.csv' INTO TABLE cpc COLUMNS TERMINATED BY ',' LINES TERMINA TED BY '\n' (id,cpc,sect,schem,clas,grp,lvl,n0,n1,n2,n3,n4,n5,n6,n7,n8,n9,n10,n11,n12);
+mysql> LOAD DATA LOCAL INFILE 't.cpc.D.csv' INTO TABLE cpc COLUMNS TERMINATED BY ',' LINES TERMINATED BY '\n' (id,cpc,sect,schem,clas,grp,lvl,n0,n1,n2,n3,n4,n5,n6,n7,n8,n9,n10,n11,n12);
 
 mysql> LOAD DATA LOCAL INFILE 't.pat.csv' INTO TABLE pat COLUMNS TERMINATED BY ',' LINES TERMINATED BY '\n' (pat_num,cpcs);
 

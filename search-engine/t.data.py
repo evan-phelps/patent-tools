@@ -25,12 +25,12 @@ def t_pat2cpc(infile='pat2cpc-sample.csv',outfile=sys.stdout):
 
     for row in data:
         imax = len(row) - 5 - 2
-        trow = row[0] + ','
+        trow = row[0] + ',|'
         for i,val in enumerate([row[x] for x in filterseq(len(row))]):
             if (i+1)%4 == 0: trow += '/'
             trow += val
             if (i+1)%4 == 0: trow += '|'
-        print(trow.strip(',').replace(' ','').strip('|'))
+        print(trow.strip(',').replace(' ',''))
 
     sys.stdout = oldout
     print('FINISHED!')
@@ -45,13 +45,13 @@ def t_records(infile='records.csv',outrec=sys.stdout,outcase=sys.stdout):
         if c:
             c = { k:v.replace(',','') for k,v in c.iteritems() }
             c = { k:v.replace(' ','') for k,v in c.iteritems() }
-            outcase.write('%s,%s,%s,%s,%s,%s,%s\n' % (c['case.no'],
-                                                      c['record.no'],
-                                                      c['court'],
-                                                      c['plaintiff'],
-                                                      c['defendant'],
-                                                      c['cpc'],
-                                                      c['patent']))
+            outcase.write('%s,%s,%s,%s,%s,|%s|,|%s|\n' % (c['case.no'],
+                                                          c['record.no'],
+                                                          c['court'],
+                                                          c['plaintiff'],
+                                                          c['defendant'],
+                                                          c['cpc'],
+                                                          c['patent']))
     data = csv.reader(open(infile))
     record = { }
     case = { }
