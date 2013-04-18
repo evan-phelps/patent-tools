@@ -24,22 +24,23 @@ struct data {
   string level;
   int lvl;
   int iblock;
-  array<unsigned char,13> path;
+  array<int,13> path;
 };
 
 data* parse(string s);
 
 int main(int argc, char* argv[])
 {
-  array<unsigned char,13> zeropath;
-  array<unsigned char,13> path;
-  zeropath.fill('0');
+  //array<int,13> zeropath;
+  array<int,13> path;
+  path.fill(0);
+  //for (int i = 0; i < 13; i++) zeropath[i] = 0;
 
   ifstream infile(argv[1]);
   ofstream outfile(argv[2]);
 
   string line;
-  long curBlockId = -1;
+  int curBlockId = -1;
   getline(infile,line);
   data *t = parse(line);
   if (t->id != "ID") infile.seekg(0);
@@ -47,11 +48,12 @@ int main(int argc, char* argv[])
     t = parse(line);
     if (t->id == "ID") continue; //header row
     if (t->lvl <= 1) {
-      path = zeropath;
+      for (int i = 2; i < 13; i++) path[i] = 0;
       curBlockId++;
+      //path[t->lvl]=curBlockId;
     }
     path[t->lvl]++;
-    for (int ip = t->lvl+1; ip < 13; ip++) path[ip] = '0';
+    for (int ip = t->lvl+1; ip < 13; ip++) if (ip > 1) path[ip] = 0;
     t->path = path;
     t->iblock = curBlockId;
     outfile << t->id << ','

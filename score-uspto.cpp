@@ -64,6 +64,7 @@ int main(int argc, char* argv[])
     if (t->lvl <= 1) {
       path = zeropath;
       curBlockId++;
+      path[t->lvl]=curBlockId;
       lgblocks.push_back(new lgs());
     }
     path[t->lvl]++;
