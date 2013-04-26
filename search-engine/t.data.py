@@ -23,14 +23,20 @@ def t_pat2cpc(infile='pat2cpc-sample.csv',outfile=sys.stdout):
     data = csv.reader(open(infile))
     #fields = data.next() #header
 
+    pat_prev, pat_cur = 0, 0
+    trow = '--'
     for row in data:
         imax = len(row) - 5 - 2
-        trow = row[0] + ',|'
+        pat_cur = row[0]
+        if pat_cur != pat_prev:
+            if pat_prev > 0: print(trow.strip(',').replace(' ',''))
+            trow = pat_cur + ',|'
+            pat_prev = pat_cur
         for i,val in enumerate([row[x] for x in filterseq(len(row))]):
             if (i+1)%4 == 0: trow += '/'
             trow += val
             if (i+1)%4 == 0: trow += '|'
-        print(trow.strip(',').replace(' ',''))
+    print(trow.strip(',').replace(' ',''))
 
     sys.stdout = oldout
     print('FINISHED!')
