@@ -17,7 +17,7 @@ III. search-engine
 IV. data transformation/migration notes
 
 scrape-uspto
-++++++++++++
+============
 
 Extracts USPTO website data.
 
@@ -34,7 +34,7 @@ Extracts USPTO website data.
 * scrape-uspto-ouput.zip -- scraped data (as of 2013/03/31).
 
 score-uspto
-+++++++++++
+============
 
 Scores each group within a single section according to its subject relevance to
 each other group.
@@ -64,7 +64,7 @@ each other group.
 * score-uspto-logs -- all logs from 2013/04/07 run
 
 search-engine
-+++++++++++++
+============
 
 (in-progress) Patent-witness matching database and web application. Project includes data transformation and migration information along with a deployable web2py application.
 
