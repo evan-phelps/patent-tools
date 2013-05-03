@@ -1,9 +1,0 @@
-*.autosave
-*\~
-t.cpc
-t.cpc.sh
-*.bak
-search-engine/t.cpc.?.csv
-search-engine/response_thoughts*
-search-engine/rfp/record-test.csv
-search-engine/tests/
